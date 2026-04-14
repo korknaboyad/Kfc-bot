@@ -192,4 +192,4 @@ def delivery(m):
     bot.send_message(m.chat.id, "🚚 *ДОСТАВКА*\n\n✅ Мин. заказ: 500₽\n⏱️ 30-40 минут\n💵 От 1000₽ - бесплатно\n🎁 В день рождения - бесплатно!", parse_mode="Markdown")
 
 print("🔥 KFC БОТ ЗАПУЩЕН! 🔥")
-bot.polling(none_stop=True)
+bot.infinity_polling()
